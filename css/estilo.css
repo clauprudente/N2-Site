@@ -1,0 +1,99 @@
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fffaeb;
+    }
+.test2 {
+    width: 100%;
+    margin: 0 auto;
+}
+.test {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*#menu  {
+
+    background-color: #247BA0;
+    padding: 20px 0;
+}
+
+    #menu ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+       
+        
+    }
+
+    #menu li {
+        
+    }
+
+    #menu a {
+        
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: #247BA0;
+        color: #fff
+    }*/
+
+    td {
+        border-width: 1px;
+        border-color: #9d8189 !important;
+        border-style: solid;
+    }
+
+    table {
+        border-width: 1px;
+        border-color: #9d8189 !important;
+        border-style: solid;
+        border-spacing: 0px;
+    }
+
+    [name="contato"]{
+        height: 100px;
+        width: 300px;
+    }   
+
+    tr {
+        background-color: #ffe5d9;
+    }
+
+    td {
+        padding: 8px;
+    }
+
+    #contato div {
+        padding: 10px;
+    }
+
+    form input:focus {
+        border-color: #9d8189;
+        border-width: 3px;
+        text-decoration: none;
+        outline: 0;
+        border-style: solid;
+        
+    }
+
+    #contato{
+        background-color: #f4acb7;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .bg-light {
+        background-color: #f4acb7 !important;
+        margin-bottom: 50px;
+    }
+
+    .form-group {
+        margin-top: 30px;
+    }
