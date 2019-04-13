@@ -4,41 +4,12 @@
         padding: 0;
         background-color: #fffaeb;
     }
-.test2 {
-    width: 100%;
-    margin: 0 auto;
-}
-.test {
-    width: 80%;
-    margin: 0 auto;
-}
 
-
-/*#menu  {
-
-    background-color: #247BA0;
-    padding: 20px 0;
-}
-
-    #menu ul {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-evenly;
-       
-        
+    h1 {
+        text-align: center;
     }
 
-    #menu li {
-        
-    }
-
-    #menu a {
-        
-        text-transform: uppercase;
-        text-decoration: none;
-        background-color: #247BA0;
-        color: #fff
-    }*/
+    /* Coisas relacionadas ao Menu */
 
     td {
         border-width: 1px;
@@ -53,17 +24,16 @@
         border-spacing: 0px;
     }
 
-    [name="contato"]{
-        height: 100px;
-        width: 300px;
-    }   
-
-    tr {
-        background-color: #ffe5d9;
+    .bg-light {
+        background-color: #f4acb7 !important;
+        margin-bottom: 50px;
     }
 
-    td {
-        padding: 8px;
+    /* Coisas relacionadas a Página Contato */
+
+    [name="contato"] {
+        height: 100px;
+        width: 460px;
     }
 
     #contato div {
@@ -76,22 +46,12 @@
         text-decoration: none;
         outline: 0;
         border-style: solid;
-        
     }
 
-    #contato{
+    #contato {
         background-color: #f4acb7;
         width: 500px;
         margin: 0 auto;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    .bg-light {
-        background-color: #f4acb7 !important;
-        margin-bottom: 50px;
     }
 
     .form-group {
