@@ -57,3 +57,15 @@
     .form-group {
         margin-top: 30px;
     }
+
+    #contato .btn.btn-primary {
+        background-color: #9d8189 !important;
+        border-color: #9d8189 !important;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    #contato .btn.btn-primary:hover {
+        background-color: #7b676d !important;
+        border-color: #7b676d !important;
+    }
