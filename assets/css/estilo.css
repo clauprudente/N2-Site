@@ -47,12 +47,18 @@ p.lead {
 /* Coisas relacionadas ao Rodapé */
 
 .footer {
-    background-color:#f4acb7 !important;
+    background-color: #f4acb7 !important;
     text-align: right;
 }
+
 .text-muted {
     color: #000000!important;
 }
+
+.icones {
+    margin-right: 52px;
+}
+
 /* Coisas relacionadas a Página Contato */
 
 [name="contato"] {
@@ -85,7 +91,7 @@ form input:focus {
 #contato .btn.btn-primary, a.btn.btn-sm.btn-outline-secondary {
     background-color: #9d8189 !important;
     border-color: #9d8189 !important;
-    color:#fff;
+    color: #fff;
     margin: 0 auto;
     display: flex;
 }
