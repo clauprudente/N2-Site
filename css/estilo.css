@@ -9,30 +9,7 @@
         text-align: center;
     }
 
-    /* Coisas relacionadas a Home */
-    
-    .jumbotron {
-        background-image: url(https://cdn.pixabay.com/photo/2016/02/27/06/43/cherry-tree-1225186_960_720.jpg);
-        background-position:top;
-        background-repeat: no-repeat;
-        background-size: cover;  
-        text-align:center;     
-        color: #572632           
-    } 
-
-    div.textoHome{
-        font-size: 16 pt;
-        text-align: justify;
-        margin: 50px 100px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-    p.lead{
-        font-size: 18pt;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-    
+  
     /* Coisas relacionadas ao Menu */
 
     td {
@@ -53,7 +30,72 @@
         margin-bottom: 50px;
     }
 
-    /* Coisas relacionadas a Página Contato */
+        /* Coisas relacionadas a página Home */
+    
+        .jumbotron {
+            background-image: url(https://cdn.pixabay.com/photo/2016/02/27/06/43/cherry-tree-1225186_960_720.jpg);
+            background-position:top;
+            background-repeat: no-repeat;
+            background-size: cover;  
+            text-align:center;     
+            color: #572632           
+        } 
+    
+        div.textoHome{
+            font-size: 16 pt;
+            text-align: justify;
+            margin: 50px 100px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    
+        p.lead{
+            font-size: 18pt;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+
+    /* Coisas relacionadas a página Sobre */
+
+    #claudia{
+        border-radius: 50%;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
+    }
+
+    #mariana{
+        border-radius: 50%;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);        
+    }
+
+    .texto-claudia{
+        text-align: justify;
+        margin:  20px;
+        padding: 10px;
+    }
+
+    .texto-mariana{
+        text-align: justify;
+        margin:  20px;
+        padding: 10px;
+    }
+
+    .display-4{
+        margin: 20px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20pt;
+    }
+
+
+
+
+
+    /* Coisas relacionadas a página Contato */
 
     [name="contato"] {
         height: 100px;
