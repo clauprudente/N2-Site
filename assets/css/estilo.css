@@ -82,18 +82,30 @@ form input:focus {
     margin-top: 30px;
 }
 
-#contato .btn.btn-primary {
+#contato .btn.btn-primary, a.btn.btn-sm.btn-outline-secondary {
     background-color: #9d8189 !important;
     border-color: #9d8189 !important;
+    color:#fff;
     margin: 0 auto;
     display: flex;
 }
 
-#contato .btn.btn-primary:hover {
+#contato .btn.btn-primary:hover, a.btn.btn-sm.btn-outline-secondary:hover {
     background-color: #7b676d !important;
     border-color: #7b676d !important;
 }
 
 #contato2 {
     text-align: center;
+}
+
+/* Relacionado a página Projetos */
+
+.card-name {
+    font-weight: bold;
+}
+
+.justify-content-between {
+    -ms-flex-pack: justify!important;
+    justify-content: center !important;
 }
