@@ -1,0 +1,158 @@
+html, body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8eee7;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+}
+
+/* Coisas relacionadas a Home */
+
+.jumbotron {
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/27/06/43/cherry-tree-1225186_960_720.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #572632
+}
+
+div.textoHome {
+    font-size: 16 pt;
+    text-align: justify;
+    margin: 50px 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p.lead {
+    font-size: 18pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Coisas relacionadas a página Sobre */
+
+#claudia{
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
+}
+
+#mariana{
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);        
+}
+
+.texto-claudia{
+    text-align: justify;
+    margin:  20px;
+    padding: 10px;
+}
+
+.texto-mariana{
+    text-align: justify;
+    margin:  20px;
+    padding: 10px;
+}
+
+.display-3{
+    margin: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+}
+
+
+
+
+
+/* Coisas relacionadas ao Menu */
+
+.bg-light {
+    background-color: #f4acb7 !important;
+    margin-bottom: 50px;
+}
+
+/* Coisas relacionadas ao Rodapé */
+
+.footer {
+    background-color: #f4acb7 !important;
+    text-align: right;
+}
+
+.text-muted {
+    color: #000000!important;
+}
+
+.icones {
+    margin-right: 52px;
+}
+
+/* Coisas relacionadas a Página Contato */
+
+[name="contato"] {
+    height: 100px;
+    width: 460px;
+}
+
+#contato div {
+    padding: 10px;
+}
+
+form input:focus {
+    border-color: #9d8189;
+    border-width: 3px;
+    text-decoration: none;
+    outline: 0;
+    border-style: solid;
+}
+
+#contato {
+    background-color: #f4acb7;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-top: 30px;
+}
+
+#contato .btn.btn-primary, a.btn.btn-sm.btn-outline-secondary {
+    background-color: #9d8189 !important;
+    border-color: #9d8189 !important;
+    color: #fff;
+    margin: 0 auto;
+    display: flex;
+}
+
+#contato .btn.btn-primary:hover, a.btn.btn-sm.btn-outline-secondary:hover {
+    background-color: #7b676d !important;
+    border-color: #7b676d !important;
+}
+
+#contato2 {
+    text-align: center;
+}
+
+/* Relacionado a página Projetos */
+
+.card-name {
+    font-weight: bold;
+}
+
+.justify-content-between {
+    -ms-flex-pack: justify!important;
+    justify-content: center !important;
+}

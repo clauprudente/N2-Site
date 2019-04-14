@@ -3,7 +3,10 @@
 
 
 <head>
-  <title>Contato Maneiro</title>
+  <title>Contato</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="assets/images/favicon" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
@@ -15,10 +18,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/estilo.css" type="text/css" />
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
   <div id="content">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">{ mariana e cláudia }</a>
@@ -28,10 +31,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="home.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="index.html">Home</a>
           <a class="nav-item nav-link" href="sobre.html">Sobre</a>
           <a class="nav-item nav-link" href="projetos.html">Projetos</a>
-          <a class="nav-item nav-link" href="contato.html">Contato</a>
+          <a class="nav-item nav-link active" href="contato.html">Contato <span class="sr-only">(current)</span></a>
         </div>
       </div>
     </nav>
@@ -74,7 +77,7 @@
                 placeholder="Escreva aqui o motivo do seu contato" class="form-control" />
             </div>
             <div>
-              <button type="button" name="botao" class="btn btn-primary id="botaoContato"
+              <button type="button" name="botao" class="btn btn-primary id=" botaoContato"
                 onclick="alert('Enviado! =) \nEntraremos em contato!')">Enviar</button>
             </div>
           </div>
@@ -82,6 +85,19 @@
       </div>
     </section>
   </div>
+  <footer class="footer mt-auto py-3">
+      <div class="container">
+          <span class="text-muted">Copyright © 2019 | { mariana e cláudia }</span>
+          <p class="icones">
+              <a href="https://web.facebook.com/ReprogramaBr/" target="_blank"><img src="assets/images/facebook.png"
+                      height="50" /></a>
+              <a href="https://www.instagram.com/reprogramabr/" target="_blank"><img src="assets/images/instagram.png"
+                      height="50" /></a>
+              <a href="https://twitter.com/reprogramabr" target="_blank"><img src="assets/images/twitter.png"
+                      height="50" /></a>
+          </p>
+      </div>
+  </footer>
 </body>
 
 </html>
